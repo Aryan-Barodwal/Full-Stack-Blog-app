@@ -1,0 +1,32 @@
+#navbar {
+    background: rgba(255, 255, 255, 0.17);
+    border-radius: px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.1px);
+    -webkit-backdrop-filter: blur(5.1px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+
+#showLIGHT {
+    width: 20px;
+    height: 0px;
+    z-index: 10;
+    border-radius: 100%;
+    background-color: #9d9b9b;
+    box-shadow:
+        0 0 30px 20px #636162,
+        /* inner white */
+        /* 0 0 100px 60px #c55c98, middle magenta */
+        0px 0 100px 10px #2c2c2c;
+    /* 0 0 60px 30px #fff,  inner white */
+    /* 0 0 100px 60px rgb(106, 104, 106), middle magenta */
+    /* 60px 60px 120px 90px rgb(56, 59, 59); outer cyan */
+}
+.isopenSession{
+    background: rgb(255, 255, 255);
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2); */
+}

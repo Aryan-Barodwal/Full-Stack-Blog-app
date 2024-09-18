@@ -1,0 +1,21 @@
+.my-masonry-grid {
+    display: flex;
+    /* overflow: scroll; */
+    margin-left: -10px;
+    /* Adjust according to your gap */
+    width: auto;
+    /* overflow: scroll; */
+}
+
+.my-masonry-grid_column {
+    padding-left: 10px;
+    /* overflow: scroll; */
+    /* Adjust according to your gap */
+    background-clip: padding-box;
+}
+
+/* Optional: Style the individual items */
+.my-masonry-grid_column>div {
+    margin-bottom: 10px;
+    /* Adjust according to your gap */
+}

@@ -1,0 +1,28 @@
+@font-face {
+   font-family: hello;
+   src: url("../src/assets/NeueMontreal-Regular.otf");
+}
+
+
+*::-webkit-scrollbar {
+   width: 10px;
+   display: block;
+}
+
+*::-webkit-scrollbar-thumb {
+   background-color: #b1b0b0;
+   /* border-radius: 5px; */
+}
+
+*::-webkit-scrollbar-track {
+   background-color: #ffffff;
+}
+
+html,
+body {
+   overflow-x: hidden;
+   font-family: hello;
+   scroll-behavior: smooth;
+   letter-spacing: 0.6px;
+
+}
