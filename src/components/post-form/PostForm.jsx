@@ -132,9 +132,14 @@ export default function PostForm({ post }) {
       toast(
         <div>
           <strong>Authentication in Progress!</strong> <br />
-          Please try again in 2-3 minutes while we verify your credentials. <br />
+          Please try again in 2-3 minutes while we verify your credentials.{" "}
+          <br />
           Thank you for your patience!
-        </div>, 
+          <br />
+          Or
+          <br />
+          Please reload the page <i className="ri-loop-right-line text-cyan-600 font-medium"></i> 
+        </div>,
         { duration: 6000 }
       );
     }
@@ -171,7 +176,7 @@ export default function PostForm({ post }) {
 
       {isSubmitting ? (
         <div className="loader-top absolute z-10 w-full h-full ">
-          <div className="loader w-full mx-auto flex justify-center items-center"></div>
+          <div className="loader w-full text-center mx-auto flex justify-center items-center"></div>
         </div>
       ) : (
         ""
